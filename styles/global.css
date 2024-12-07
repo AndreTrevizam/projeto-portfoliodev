@@ -24,9 +24,28 @@
   --asap-title-sm: 800 16px/120% var(--font-asap);
 
   --font-inconsolata: "Inconsolata", monospace;
-  --inconsolata-subtitle: 400 20px/120% var(--font-inconsolata);
+  --inconsolata-subtitle: 300 20px/120% var(--font-inconsolata);
 
   --font-maven-pro: "Maven Pro", sans-serif;
-  --text-md: 400 16px/140% var(--font-maven-pro);
-  --text-sm: 400 14px/140% var(--font-maven-pro);
+  --text-md: 300 16px/140% var(--font-maven-pro);
+  --text-sm: 300 14px/140% var(--font-maven-pro);
 }
+
+body{
+  background-color: var(--gray-200);
+}
+
+.container{
+  max-width: 1040px;
+  margin: auto;
+}
+
+.header{
+  background-image: url(../assets/images/Background_Contacts.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajusta a imagem para cobrir a área */
+  background-position: center;
+}
+
+
