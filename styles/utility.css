@@ -1,0 +1,39 @@
+.grid{
+  display: grid;
+}
+
+.grid-flow-col{
+  grid-auto-flow: column;
+}
+
+.flex{
+  display: flex;
+}
+
+strong{
+  font: inherit;
+  color: var(--red);
+}
+
+.text-subtitle{
+  font: var(--inconsolata-subtitle);
+  color: var(--gray-500);
+}
+
+.text-lg{
+  font: var(--asap-title-lg);
+}
+
+.text-sm{
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+.text-md{
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
+.gap-16{
+  gap: 16px;
+}
