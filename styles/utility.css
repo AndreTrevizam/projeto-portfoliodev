@@ -34,6 +34,20 @@ strong{
   color: var(--gray-500);
 }
 
+.asap-md{
+  font: var(--asap-title-md);
+  color: var(--gray-600);
+}
+
+.asap-sm{
+  font: var(--asap-title-sm);
+  color: var(--gray-600);
+}
+
 .gap-16{
   gap: 16px;
+}
+
+.gap-8{
+  gap: 8px;
 }
