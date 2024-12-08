@@ -1,0 +1,32 @@
+.custom-section{
+  background-color: var(--gray-100);
+}
+
+#my-services{
+  padding-block: 88px 120px;
+  text-align: center;
+  justify-items: center;
+
+  .box{
+    outline: 2px solid var(--gray-200);
+    border-radius: 12px;
+    text-align: start;
+    width: 280px;
+    background-color: var(--gray-100);
+    padding: 20px;
+
+    img{
+      padding-bottom: 20px;
+    }
+
+    h3{
+      padding-bottom: 8px;
+    }
+  }
+}
+
+#services{
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: auto;
+}
+
